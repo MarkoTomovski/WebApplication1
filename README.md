@@ -1,3 +1,2 @@
 # WebApplication1
-.net restAPI for faculty project
-communication with .net MAUI
+project involving asp.net restAPI for communication with .net MAUI.
