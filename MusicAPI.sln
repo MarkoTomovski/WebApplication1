@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{38DC4F1D-B40F-42B2-8DF6-7A050589CC46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicAPI", "WebApplication1\MusicAPI.csproj", "{38DC4F1D-B40F-42B2-8DF6-7A050589CC46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacebookAPIClient", "FacebookClient\FacebookAPIClient.csproj", "{0BCD693D-1DEF-4CAA-ACD5-B2FC03B37CAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{38DC4F1D-B40F-42B2-8DF6-7A050589CC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38DC4F1D-B40F-42B2-8DF6-7A050589CC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38DC4F1D-B40F-42B2-8DF6-7A050589CC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCD693D-1DEF-4CAA-ACD5-B2FC03B37CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCD693D-1DEF-4CAA-ACD5-B2FC03B37CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCD693D-1DEF-4CAA-ACD5-B2FC03B37CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCD693D-1DEF-4CAA-ACD5-B2FC03B37CAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
