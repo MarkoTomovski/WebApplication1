@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
- using WebApplication1.Data;
+
+using Ukim.MusicAPI.Data;
+using Ukim.MusicAPI.Services;
+using Ukim.FacebookAPIClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,12 +12,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
- void ConfigureServices(IServiceCollection services) {
-    builder.Services.AddDbContext<CategoryDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-    builder.Services.AddDbContext<MusicAppDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-    builder.Services.AddDbContext<ArtistDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-}
 
+builder.Services.AddDbContext<MusicDbContext>(options => options.UseInMemoryDatabase(databaseName: "MusicDb"));
+
+builder.Services.AddFacebookService();
+
+builder.Services.AddHostedService<FacebookCrawlerService>();
 
 var app = builder.Build();
 
@@ -31,5 +33,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+MusicDbInitializer.SeedStaticData(app);
 
 app.Run();
