@@ -1,8 +1,8 @@
 ﻿using System;
 
-using MusicAPI.Models;
+using Ukim.MusicAPI.Models;
 
-namespace MusicAPI.Data
+namespace Ukim.MusicAPI.Data
 {
     internal static class MusicDbInitializer
     {

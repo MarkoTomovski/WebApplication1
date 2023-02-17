@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-using FacebookAPIClient.Models;
+using Ukim.FacebookAPIClient.Models;
 
-namespace FacebookAPIClient.Services
+namespace Ukim.FacebookAPIClient.Services
 {
     public interface IFacebookService
     {

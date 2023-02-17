@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
-using MusicAPI.Models;
+using Ukim.MusicAPI.Models;
 
-namespace MusicAPI.Data
+namespace Ukim.MusicAPI.Data
 {
     public class MusicDbContext : DbContext
     {

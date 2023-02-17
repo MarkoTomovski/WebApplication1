@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-using MusicAPI.Data;
-using MusicAPI.Models;
+using Ukim.MusicAPI.Data;
+using Ukim.MusicAPI.Models;
 
 namespace MusicAPI.Controllers
 {

@@ -6,7 +6,7 @@ using System.Net.Http.Headers;
 
 using Newtonsoft.Json;
 
-namespace FacebookAPIClient.Services
+namespace Ukim.FacebookAPIClient.Services
 {
     public class FacebookClient : IFacebookClient
     {

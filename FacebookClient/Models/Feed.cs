@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FacebookAPIClient.Models
+namespace Ukim.FacebookAPIClient.Models
 {
     public class Feed
     {

@@ -1,8 +1,8 @@
-using FacebookAPIClient;
 using Microsoft.EntityFrameworkCore;
 
-using MusicAPI.Data;
-using MusicAPI.Services;
+using Ukim.MusicAPI.Data;
+using Ukim.MusicAPI.Services;
+using Ukim.FacebookAPIClient;
 
 var builder = WebApplication.CreateBuilder(args);
 

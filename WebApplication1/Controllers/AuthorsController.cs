@@ -4,10 +4,10 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-using MusicAPI.Data;
-using MusicAPI.Models;
+using Ukim.MusicAPI.Data;
+using Ukim.MusicAPI.Models;
 
-namespace MusicAPI.Controllers
+namespace Ukim.MusicAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

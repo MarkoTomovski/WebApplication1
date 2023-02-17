@@ -2,11 +2,11 @@
 
 using Microsoft.EntityFrameworkCore;
 
-using MusicAPI.Data;
-using MusicAPI.Models;
-using FacebookAPIClient.Services;
+using Ukim.MusicAPI.Data;
+using Ukim.MusicAPI.Models;
+using Ukim.FacebookAPIClient.Services;
 
-namespace MusicAPI.Services
+namespace Ukim.MusicAPI.Services
 {
     public class FacebookCrawlerService : BackgroundService
     {
@@ -22,7 +22,7 @@ namespace MusicAPI.Services
             JobManager.Initialize();
 
             JobManager.AddJob(async () => await CrawlAsync(),
-                s => s.ToRunEvery(0).Days().At(20, 30)
+                s => s.ToRunEvery(0).Days().At(12, 05)
             );
 
             return Task.CompletedTask;

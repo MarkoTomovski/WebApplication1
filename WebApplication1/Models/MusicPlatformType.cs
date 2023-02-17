@@ -1,4 +1,4 @@
-﻿namespace MusicAPI.Models
+﻿namespace Ukim.MusicAPI.Models
 {
     public enum MusicPlatformType
     {

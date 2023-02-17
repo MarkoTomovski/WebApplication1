@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace FacebookAPIClient.Services
+namespace Ukim.FacebookAPIClient.Services
 {
     public interface IFacebookClient
     {

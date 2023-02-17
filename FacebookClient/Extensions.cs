@@ -1,8 +1,10 @@
 ﻿using System;
-using FacebookAPIClient.Services;
+
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FacebookAPIClient
+using Ukim.FacebookAPIClient.Services;
+
+namespace Ukim.FacebookAPIClient
 {
     public static class Extensions
     {

@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Ukim.FacebookAPIClient</AssemblyName>
+    <RootNamespace>Ukim.FacebookAPIClient</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

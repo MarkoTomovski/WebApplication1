@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FacebookAPIClient.Models
+namespace Ukim.FacebookAPIClient.Models
 {
     public class Post
     {

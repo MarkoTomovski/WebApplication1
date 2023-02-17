@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MusicAPI.Models
+namespace Ukim.MusicAPI.Models
 {
     public class Category
     {
