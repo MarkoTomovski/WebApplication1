@@ -22,7 +22,7 @@ namespace Ukim.MusicAPI.Services
             JobManager.Initialize();
 
             JobManager.AddJob(async () => await CrawlAsync(),
-                s => s.ToRunEvery(0).Days().At(12, 22)
+                s => s.ToRunEvery(0).Days().At(00, 01)
             );
 
             return Task.CompletedTask;
